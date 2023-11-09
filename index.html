@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@1&family=Urbanist:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Primer TP</title>
+</head>
+<body>
+    <header class="barraDeMenu">
+        <h1>CHERRY FOTOGRAFIA</h1>
+        <nav>
+            <ul class="menulist">  
+                <li><a href="">Inicio</a></li>
+                <li><a href="">curso</a></li>
+                <li><a href="">Nosotros</a></li>      
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="primerContenedor">
+            <h2>CHERRY FOTOGRAFIA</h2>
+        </section>
+        <section class="galeria">
+            <h3>¿Te gusta tomar fotos?</h3>
+            <article class="galeria--cont">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./img/imagen1.jpg" class="d-block w-100" alt="imagen1">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/images2.jpg" class="d-block w-100" alt="images2">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/imagen3.jpg" class="d-block w-100" alt="imagen3">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </article>
+        </section>
+        <section class="us-content">
+            <article class="us-article">
+            <h4>Nosotros</h4>
+            <p>La Escuela de Fotografía Motivarte tiene una larga trayectoria en la implementación de estrategias de capacitación y formación cuyo objetivo central es que el alumno adquiera las habilidades y los conceptos necesarios para producir imágenes de alto impacto visual y creativo.
+
+                Desde su fundación en 1994, la Misión de Motivarte es que el alumno encuentre en la fotografía un "medio", y que la motivación y el desarrollo personal sean su "fin". Esto implica que nuestras propuestas de formación promueven en el alumno la búsqueda de su vocación y su realización como persona integral, es decir, en relación al mundo de la cultura, de la educación y del trabajo.</p>            
+            <p>Nuestra Escuela procura formar no solamente en aspectos técnicos y conceptuales relacionados con la imagen fotográfica, sino por sobre todo en las actitudes necesarias para abordar la tarea de fotógrafo a nivel profesional, así como en aquellos valores imprescindibles en una comunidad donde la imagen transmite mensajes de toda índole, y hace falta un espacio para la crítica lúcida y el compromiso ético. Proponemos una revalorización de los vínculos y las relaciones humanas, porque consideramos que el proceso de creación y la motivación están atravesados por los afectos, los sentimientos y la emoción.</p>
+        </section>
+    </main>
+    <aside class="pagar">
+        <div class="img-tarjetas">
+            <img src="./img/tarjetas.jpg" alt="">
+        </div>
+        <div class="img-tarjetas">
+            <img src="./img/MercadoPago.jpg" alt="">
+        </div>
+
+    </aside>
+    <div class="container">
+        <form class="form">
+            <h2>Contacto</h2>
+            <p>
+                
+            </p>
+            <label for="Nombre">Escribe tu Nombre</label>
+            <input type="text" id="Nombre" class="box">
+            <label for="Correo">Escribe tu Correo</label>
+            <input type="mail" id="correo" class="box">
+            <label for="mensaje">Escribe tu mensaje</label>
+            <textarea class="box" id="mensaje" cols="30" rows="10"></textarea>
+
+            <input type="submit" value="enviar" class="submit">
+        </form>  
+        <div class="info">
+            <img src="./img/Copia de info-1.svg" class="img-1" alt="">
+            <div class="location">
+                <div class="icons">
+
+                    <img src="./img/gps.svg" alt="">
+                    <p>Rivadavia 1234 Capital Federal CP 0912</p>
+                    <div class="icons">
+
+                        <img src="./img/number.svg" alt="">
+                        <p>0145050912</p>
+                        <div class="icons">
+
+                            <img src="./img/email.svg" alt="">
+                            <p>Cherry@gmail.com</p>
+                </div>
+            </div>
+            <div class="social">
+                <img src="./img/ins.svg" alt="">
+                <img src="./img/fa.svg" alt="">
+                <img src="./img/tw.svg" alt="">
+
+            </div>            
+        </div>      
+    </div>
+    <footer id="footer" class="pie">
+        <span>Copyringht</span>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
